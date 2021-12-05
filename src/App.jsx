@@ -50,8 +50,6 @@ function App() {
 
                 setValues([result, 0])
             } catch (error) {
-                console.error("🚀 ~ file: App.jsx ~ addOperation ~ error")
-
                 setDisplayValue(left)
             }
 
